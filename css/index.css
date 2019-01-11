@@ -77,6 +77,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 30px
 }
 
 .top-content .text-container {
@@ -104,7 +105,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background-color: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +144,107 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*homepage*/
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0 30px 0;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+#box3 {
+    background-color: cadetblue;
+}
+#box4 {
+    background-color: coral
+}
+#box5 {
+    background-color: crimson;
+}
+#box6 {
+    background-color: forestgreen;
+}
+#box7 {
+    background-color: darkorchid;
+}
+#box8 {
+    background-color: hotpink;
+}
+#box9 {
+    background-color: indigo;
+}
+#box10 {
+    background-color: dodgerblue;
+}
+
+.top-img {
+    margin-bottom: 30px;
+}
+
+/*aboutpage*/
+
+.container-4-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between; 
+    width: 790px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 40px;
+}
+
+.container-4-boxes .infobox{
+    padding: 40px 0 40px 10;
+    border-bottom: 1px dotted gray;
+}
+
+.infobox {
+    width: 370px;
+    padding: 20px 0 40px 0;
+    
+}
+
+.about-page {
+    padding: 0 10px 0 10px;
+    border-bottom: 1px dotted gray;
+    padding-bottom: 20px;
+}
+
+.worktogether {
+    padding: 0 10px 0 10px;
+    margin-bottom: 30px;
+}
+
+.infobox button {
+    width: 140px; 
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.infobox img {
+    padding-bottom: 10px;
 }

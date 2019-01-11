@@ -242,3 +242,7 @@ footer nav a {
     width: 140px; 
     height: 35px
 }
+
+.infobox img {
+    padding-bottom: 10px;
+}

@@ -146,6 +146,8 @@ footer nav a {
     text-decoration: none;
 }
 
+/*homepage*/
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -198,4 +200,30 @@ footer nav a {
 
 .top-img {
     margin-bottom: 30px;
+}
+
+/*aboutpage*/
+
+.container-4-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between; 
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 40px;
+}
+
+.container-4-boxes .infobox{
+    padding: 40px 0 40px 10;
+
+    border-bottom: 1px dotted gray;
+}
+
+.infobox {
+    width: 370px;
+    padding: 40px 0 40px 0;
+    border-top: 1px dotted gray;
 }

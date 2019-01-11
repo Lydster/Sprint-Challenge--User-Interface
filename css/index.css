@@ -240,7 +240,9 @@ footer nav a {
 
 .infobox button {
     width: 140px; 
-    height: 35px
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
 .infobox img {

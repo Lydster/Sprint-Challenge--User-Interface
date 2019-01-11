@@ -209,7 +209,7 @@ footer nav a {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between; 
-    width: 800px;
+    width: 790px;
     margin: 0 auto;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -218,12 +218,27 @@ footer nav a {
 
 .container-4-boxes .infobox{
     padding: 40px 0 40px 10;
-
     border-bottom: 1px dotted gray;
 }
 
 .infobox {
     width: 370px;
-    padding: 40px 0 40px 0;
-    border-top: 1px dotted gray;
+    padding: 20px 0 40px 0;
+    
+}
+
+.about-page {
+    padding: 0 10px 0 10px;
+    border-bottom: 1px dotted gray;
+    padding-bottom: 20px;
+}
+
+.worktogether {
+    padding: 0 10px 0 10px;
+    margin-bottom: 30px;
+}
+
+.infobox button {
+    width: 140px; 
+    height: 35px
 }
